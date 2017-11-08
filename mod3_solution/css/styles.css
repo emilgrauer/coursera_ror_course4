@@ -1,0 +1,56 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus
+{ background-color:#f00; //Your Pick }
+
+
+#header-nav {
+  background-color: #d3d3d3;
+}
+
+#header-nav {
+  margin-bottom: 0px;
+}
+
+.navbar-brand {
+  text-align: left;
+}
+
+#nav-ul {
+  background: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #FFFFFF;
+}
+
+#nav-ul hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #e7e7e7;
+}
+
+div.food-section {
+  background-color: #d3d3d3;
+  height: 1000px;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /* Home Page */
+
+.navbar-brand {
+  margin-left: 20px;
+}
+div.food-section {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+  }
+  /* End Home Page */
+}
