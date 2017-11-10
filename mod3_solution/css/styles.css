@@ -15,7 +15,9 @@ body {
 }
 
 .navbar-brand {
-  text-align: left;
+    position: absolute;
+    left: 20px;
+    padding: 10px;
 }
 
 #nav-ul {
@@ -44,9 +46,7 @@ div.food-section {
 @media (max-width: 767px) {
   /* Home Page */
 
-.navbar-brand {
-  margin-left: 20px;
-}
+
 div.food-section {
   margin-left: 40px;
   margin-right: 40px;
